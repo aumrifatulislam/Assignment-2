@@ -81,6 +81,7 @@ nav ul li a:hover{
 /*nav bar end*/
 /*responsive - nav bar - start*/
 @media screen and (max-width: 576px) {
+
     nav{
         margin: 14px 16px;
     }
@@ -154,7 +155,105 @@ nav ul li a:hover{
     }
 }
 /*responsive-banner section - end*/
+/*Our Plants - start*/
+.our-plants{
+    margin: 120px 150px;
+}
 
+.title-plant{
+    font-size: 3.125rem;
+    font-weight: 700;
+    text-align: center;
+    color: #000;
+    margin-bottom: 16px;
+}
+.spa-plant{
+    color: #E95A08;
+
+}
+.plant-p{
+    text-align: center;
+    padding: 0px 126px;
+    margin-bottom: 49px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px 20px;
+}
+
+.card-design {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card-image{
+    width: 16.875rem;
+    height: 20.188rem;
+}
+
+.card-4{
+    font-size: 1.375rem;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    color: #111;
+}
+
+.card-3{
+    font-size: 1.375rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #111;
+
+}
+.card-boutton{
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    color: #ffff;
+    background-color: #E95A08;
+    padding: 19px 90px;
+}
+/*Our Plants section - end*/
+/*responsive-Our Plants - start*/
+@media screen and (max-width: 576px) {
+    html, body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .our-plants{
+        margin: 0px 15px;
+    }
+    .title-plant{
+        font-size: 1.5rem;
+    }
+    .plant-p{
+        padding: 0px 28px;
+        margin-bottom: 28px;
+    }
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .card-image{
+        width: 10.688rem;
+        height: 12.313rem;
+    }
+    .card-4{
+        font-size: 1rem;
+    }
+    .card-3{
+        font-size: 1rem;
+    }
+    .card-boutton{
+        padding: 19px 40px;
+    }
+}
+/*responsive-Our Plants section - end*/
 
 
 
