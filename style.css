@@ -269,6 +269,13 @@ nav ul li a:hover{
     font-weight: 700;
     margin-bottom: 20px;
 }
+.badge{
+    position: absolute;
+    width: 286px;
+    height: 286px;
+    right: 730px;
+    top: 2050px;
+}
 .plant-ul{
     font-size: 1.375rem;
     font-weight: 500;
@@ -289,6 +296,9 @@ nav ul li a:hover{
     .plant-im{
         width: 22.375rem;
         height: 24.75rem;
+    }
+    .badge{
+        display: none;
     }
     .plant-im-h2{
         font-size: 1.5rem;
